@@ -33,7 +33,7 @@ spec:
       containers:
       - name: wso2is
         {{- if or (eq .Values.username "") (eq .Values.password "") }}
-        image: mpmunasinghe/wso2is:5.8.0
+        image: index.docker.io/mpmunasinghe/wso2is:5.8.0
         {{- else }}
         image: docker.wso2.com/wso2is:5.8.0
         {{- end }}
