@@ -96,9 +96,9 @@ spec:
       - name: identity-server-conf-identity
         configMap:
           name: identity-server-conf-identity
-      - name: shared-deployment-persistent-disk
-        persistentVolumeClaim:
-          claimName: is-shared-deployment-volume-claim
-      - name: shared-tenants-persistent-disk
-        persistentVolumeClaim:
-          claimName: is-shared-tenants-volume-claim
+#      - name: shared-deployment-persistent-disk
+#        persistentVolumeClaim:
+#          claimName: is-shared-deployment-volume-claim
+#      - name: shared-tenants-persistent-disk
+#        persistentVolumeClaim:
+#          claimName: is-shared-tenants-volume-claim
