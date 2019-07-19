@@ -1,6 +1,6 @@
 svcaccount: "wso2svc-account"
 confs: confs
 registry: index.docker.io
-username:
-password: 
+username: ""
+password: ""
 
