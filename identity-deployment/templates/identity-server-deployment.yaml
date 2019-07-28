@@ -35,7 +35,7 @@ spec:
         {{- if or (eq .Values.username "") (eq .Values.password "") }}
         image: index.docker.io/mpmunasinghe/wso2is
         {{- else }}
-        image: docker.wso2.com/wso2is:5.8.0
+        image: index.docker.io/mpmunasinghe/wso2is
         {{- end }}
         livenessProbe:
           exec:
