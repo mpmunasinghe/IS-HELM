@@ -24,7 +24,6 @@ metadata:
     nginx.ingress.kubernetes.io/session-cookie-name: "route"
     nginx.ingress.kubernetes.io/session-cookie-hash: "sha1"
 spec:
-  type: LoadBalancer
   tls:
   - hosts:
     - wso2is
